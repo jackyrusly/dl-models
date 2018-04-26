@@ -2,7 +2,7 @@ require("should");
 // var validateKanban = require('./kanban-validator');
 // var validateStep = require("../../master/step-validator");
 // var validateMachine = require("../../master/machine-validator");
-var validateBadOutputReason = require("./bad-output-reason-item-validator");
+// var validateBadOutputReason = require("./bad-output-reason-item-validator");
 
 module.exports = function(data) {
     data.should.not.equal(null);
